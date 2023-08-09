@@ -1,0 +1,45 @@
+Hello everyone, welcome to Classifying Radio Signals from Space using Keras in 
+Python. In this article, you will learn about how to classify radio signal using 
+CNN, how to display results and plot 2D spectrograms with Python in Jupyter 
+Notebook.
+
+Here, we will be using the dataset which is provided by the SETI Institute. The 
+dataset is already normalized and divided into two directories i.e. testing and 
+validation dataset. You can download the dataset from here with your Google account
+
+https://www.kaggle.com/datasets/aquibiqbal/seti2ddata
+(81 MB)
+
+or
+...
+
+
+
+
+
+Classify Radio Signals from Space with Keras
+
+    In this project, you will learn the basics of using Keras with TensorFlow as 
+its backend and use it to solve an image classification problem. The data 
+consists of 2D spectrograms of deep space radio signals collected by the Allen 
+Telescope Array at the SETI Institute. The spectrograms will be treated as 
+images to train an image classification model to classify the signals into one 
+of four classes. By the end of the project, you will have built and trained a 
+convolutional neural network from scratch using Keras to classify signals from 
+space.
+
+The model could be optimized using hyperparameter tuning. However, the goal of 
+this notebook is not to build a high performing classifier, rather to show the 
+basic steps to build an image classifier using convolutional neural network. The 
+readers can also get the idea of
+
+*    data augmentation using ImageDataGenerator, and 
+* Way of saving the weights of 
+a model at some interval which can later be used for transfer learning through 
+'callbacks' during fitting the model
+
+
+    
+    
+    
+Intro Keras    
