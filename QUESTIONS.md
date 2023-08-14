@@ -12,10 +12,6 @@ Data is:
 Example of image augmentation
 ```python
 datagen = ImageDataGenerator(
-    featurewise_center = False,
-    samplewise_center = False,
-    featurewise_std_normalization = False,
-    samplewise_std_normalization = False,
     zca_whitening = False,
     rotation_range = 0,
     zoom_range = 0.1,
@@ -84,7 +80,9 @@ Changes on the Conv2D
 # Question to Nina
 - How many convolution layers to add
 - Can transfer lerning if we use a different architecture?
-- 
+- model.compile(loss="categorical_crossentropy", optimizer=optimizer, metrics=["accuracy"])
+    - I did use "sparse_categorical_crossentropy" and got error's at training
+
 
 # Idea
 
