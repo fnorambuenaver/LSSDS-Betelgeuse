@@ -1,0 +1,3 @@
+Imaging passing an image 64*128 throught a NN with just 1 layers;
+it's gonna have 8000 neurons, 32000 parameters
+it's gonna be 
