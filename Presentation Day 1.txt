@@ -1,3 +1,40 @@
-Imaging passing an image 64*128 throught a NN with just 1 layers;
-it's gonna have 8000 neurons, 32000 parameters
-it's gonna be 
+Let's create an impactful 180 seconds presentation
+
+Why are CNN better than NN
+- let's have a NN layer for a 64x128 inputs, we have 8192 neurons and for 4 outputs is 32000 parameters
+- CNN using a 3x3 kernel could extract information with just 9 weights, creating a layer that contains the information we need
+	- they provide activation's with spatial information called a features layer
+
+We are using CNN for classifying radio signals of SETI
+
+For CNN we try the base architecture, of two convolutional layers with pooling in between,
+extracting differents types of information,
+we used 3 different configurations of hyperparameters; getting scores of 71% to 75%
+
+Investigating the course book there's a Squeeze and Excitation Net; which separates the steps of convolution in 2
+one part goes throught the normal convolution extracting features;
+the other part *gets squished down* getting a vector the size of the ammount of filters we have, each filter try's to find a feature
+then this vector multiplys with each layer, it shutdowns entire feature leayers and excites others, so the model can learn important features easily
+
+
+
+In "Unveiling the Secrets of the Cosmos," we journey through the Search for Extraterrestrial Intelligence (SETI). Navigating vast starry expanses, rockets fall short, but radio telescopes rise as our cosmic ears. We decode the complexity of Neural Networks (NNs), but Convolutional Neural Networks (CNNs) steal the spotlight. With a mere 3x3 kernel, CNNs capture spatial secrets and build feature layers. In the SETI arena, CNNs decipher radio signals from deep space, aiding our quest for intelligent beings. Unveiling the mysteries, we challenge the silence, embracing patience and innovation. We probe distant whispers, aiming to uncover the truth in the stars, fueled by the power of CNNs and human curiosity.
+
+____
+
+In a world of data, Convolutional Neural Networks (CNNs) outshine Neural Networks (NNs). 
+
+Imagine an NN layer for 64x128 inputs – 8192 neurons, 32000 parameters for 4 outputs. Enter CNNs with a 3x3 kernel, extracting data with just 9 weights, crafting informative layers. 
+
+They gift activations with spatial insights, aptly named features layers. Our CNN journey? Classifying SETI radio signals. A base of two convolutional layers, pooling in between, extracts diverse insights. We drove hyperparameter exploration of the classic Convolution network with scores of 71% to 77%. 
+
+A Squeeze and Excitation Net from our course book. It dissects convolutions, unveils features, ignites learning, and carves a path toward cosmic understanding. Giving to the present 81% accuracy on validation
+
+We also studied the MaxPooling and 
+
+
+____
+
+Our problem is a Supervised Classification of Radio Signals;
+4 types of signal, 
+	["squiggle", "narrowband", "noise", "narrowbanddrd"]
