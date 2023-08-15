@@ -81,9 +81,15 @@ Changes on the Conv2D
 - How many convolution layers to add
 - Can transfer lerning if we use a different architecture?
 - model.compile(loss="categorical_crossentropy", optimizer=optimizer, metrics=["accuracy"])
-    - I did use "sparse_categorical_crossentropy" and got error's at training
+    - I did use "sparse_categorical_crossentropy" and got error's at trainings
 
 
 # Idea
 
 
+____
+
+# Today's 0815
+- Try to implement FFT2D and PCA for trying to differentiate the two classes that are too similar
+    - PCA had many problems because we have too many dimensions
+    - 
